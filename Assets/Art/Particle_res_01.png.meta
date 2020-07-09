@@ -1,0 +1,1523 @@
+fileFormatVersion: 2
+guid: efd71d9c9005364468f36571aa738370
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Particle_res_01
+  - first:
+      213: 21300002
+    second: blood-1-atked_penxue10001
+  - first:
+      213: 21300004
+    second: blood-1-atked_penxue10002
+  - first:
+      213: 21300006
+    second: blood-1-atked_penxue10003
+  - first:
+      213: 21300008
+    second: blood-1-atked_penxue10004
+  - first:
+      213: 21300010
+    second: blood-1-atked_penxue10005
+  - first:
+      213: 21300012
+    second: blood-1-atked_penxue10006
+  - first:
+      213: 21300014
+    second: blood-1-atked_penxue10007
+  - first:
+      213: 21300016
+    second: blood-1-atked_penxue10008
+  - first:
+      213: 21300018
+    second: blood-1-atked_penxue10009
+  - first:
+      213: 21300020
+    second: blood-1-atked_penxue10010
+  - first:
+      213: 21300022
+    second: blood-1-atked_penxue10011
+  - first:
+      213: 21300024
+    second: blood-1-atked_penxue10012
+  - first:
+      213: 21300026
+    second: blood-1-atked_penxue10013
+  - first:
+      213: 21300028
+    second: blood-1-atked_penxue10014
+  - first:
+      213: 21300030
+    second: blood-2-atked_penxue20001
+  - first:
+      213: 21300032
+    second: blood-2-atked_penxue20002
+  - first:
+      213: 21300034
+    second: blood-2-atked_penxue20003
+  - first:
+      213: 21300036
+    second: blood-2-atked_penxue20004
+  - first:
+      213: 21300038
+    second: blood-2-atked_penxue20005
+  - first:
+      213: 21300040
+    second: blood-2-atked_penxue20006
+  - first:
+      213: 21300042
+    second: blood-2-atked_penxue20007
+  - first:
+      213: 21300044
+    second: blood-2-atked_penxue20008
+  - first:
+      213: 21300046
+    second: blood-2-atked_penxue20009
+  - first:
+      213: 21300048
+    second: blood-2-atked_penxue20010
+  - first:
+      213: 21300050
+    second: blood-2-atked_penxue20011
+  - first:
+      213: 21300052
+    second: blood-2-atked_penxue20012
+  - first:
+      213: 21300054
+    second: blood-2-atked_penxue20013
+  - first:
+      213: 21300056
+    second: blood-2-atked_penxue20014
+  - first:
+      213: 21300058
+    second: blood-2-atked_penxue20015
+  - first:
+      213: 21300060
+    second: blood-atked_xuehuan
+  - first:
+      213: 21300062
+    second: body_elm-b1
+  - first:
+      213: 21300064
+    second: body_elm-b2
+  - first:
+      213: 21300066
+    second: body_elm-b3
+  - first:
+      213: 21300068
+    second: body_elm-g1
+  - first:
+      213: 21300070
+    second: body_elm-g2
+  - first:
+      213: 21300072
+    second: body_elm-g3
+  - first:
+      213: 21300074
+    second: body_elm-s1
+  - first:
+      213: 21300076
+    second: body_elm-s2
+  - first:
+      213: 21300078
+    second: body_elm-s3
+  - first:
+      213: 21300080
+    second: body_elm-x1
+  - first:
+      213: 21300082
+    second: body_elm-x2
+  - first:
+      213: 21300084
+    second: body_elm-x3
+  - first:
+      213: 21300086
+    second: bottle-atked_suipian0005
+  - first:
+      213: 21300088
+    second: bottle-atked_suipian0006
+  - first:
+      213: 21300090
+    second: bottle-atked_suipian0007
+  - first:
+      213: 21300092
+    second: bottle-atked_suipian0008
+  - first:
+      213: 21300094
+    second: bottle-atked_suipian0009
+  - first:
+      213: 21300096
+    second: bottle-atked_suipian0010
+  - first:
+      213: 21300098
+    second: box-atked_suipian0001
+  - first:
+      213: 21300100
+    second: box-atked_suipian0002
+  - first:
+      213: 21300102
+    second: box-atked_suipian0003
+  - first:
+      213: 21300104
+    second: box-atked_suipian0004
+  - first:
+      213: 21300106
+    second: box-atked_suipian0011
+  - first:
+      213: 21300108
+    second: box-atked_suipian0012
+  - first:
+      213: 21300110
+    second: player_hited_effect-zhujueatked_00000
+  - first:
+      213: 21300112
+    second: player_hited_effect-zhujueatked_00001
+  - first:
+      213: 21300114
+    second: player_hited_effect-zhujueatked_00002
+  - first:
+      213: 21300116
+    second: player_hited_effect-zhujueatked_00003
+  - first:
+      213: 21300118
+    second: player_hited_effect-zhujueatked_00004
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f90c0543c7088844a1850ff6778c970
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10002
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4641f893d7dffc04e8f2894ea41959bc
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10003
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e31e592526fedb4d93b2b2c86e0dd21
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10004
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283056e0c30f6e542a64b7ee6f016fa7
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10005
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844f76e97695c8b4898c753bff20b2f9
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10006
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f373056b23a3d347b5982a3a7b46457
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10007
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e739a26c6ca6499409bd41c5f5427cce
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10008
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652249fac112d8d4a9938e01055c0a68
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10009
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7bf3dbccaf69a4b98d30f6d9fdf228
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10010
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8487a12a50194ba7ded02ed045678
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10011
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2392
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961fbc95b31a5a4449d00b2058658c58
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10012
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e426f407c9bd4ca409e7378dab2e5017
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10013
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cda9de8aa464f245a99a15cdcf68ee1
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-1-atked_penxue10014
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6fd11fec1ab564ca0c1318b48cee20
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20001
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a948d3ac635284a46ba40dc781d4fb1f
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20002
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1806a518711626b42a8c74a01cca10bd
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20003
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b3072da1dbf1543aa55ba63a92a688
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20004
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc442cc665189449a4eae38491b14f9
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20005
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062b2300909901c468ca8e0586d69c11
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20006
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b3673102aab1b43b0ea17c2a47aa23
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20007
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442bfcdc0263ca641a7a6628d40a3614
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20008
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2252
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fbf2cef70465a42a8c04a1b8d0e5a3
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20009
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf109057ca78f34b89ac093973fba17
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20010
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f080a15c4a64e1418d906bd9ee66c4d
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20011
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81890411c1ce24640bc1b5c0206bd21b
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20012
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dac5ac847b26eb40909dab352036c5a
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20013
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e53bfa3f33f6b4785300ba3f38e18a
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20014
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899b19d2f4579a841965562515e564fa
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-2-atked_penxue20015
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2112
+        width: 225
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8ab4060939d414c826d4cb54d6db47
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-atked_xuehuan
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2001
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ebd5eac20fa7e42bb4653d02dd1f93
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-b1
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2243
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec8218df6cacb4c84ddf5bad39b271
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-b2
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 2228
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ab089114d42141947d58a53fb2026
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-b3
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 2235
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8061b8b0f62916544ad8c719e6d6624d
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-g1
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 2223
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7426528c78ed54458e163640563e2a4
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-g2
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 2235
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bf12d925539aa4091f200b341ca1f4
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-g3
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 2238
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf2a71ad7f224d4693274526515011e
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-s1
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 2235
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd48e8272d7b5b84380676c55d6aae5b
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-s2
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2225
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8ce63b2cc84104181b43f68c7d6e1d
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-s3
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 2233
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e03d13b1ef30241bdd8b81b95e9e75
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-x1
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2236
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2793bfe4bb2a841baac0365e190e0b
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-x2
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2235
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdfc737d3081654faa4c0a68df0c9e3
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_elm-x3
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 2228
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee08e9c5568671458c3dac2bd7d3f41
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0005
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195b92353a11564194cf295552580a1
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0006
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef72689ac91afb4bb8de7c1ecc9548b
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0007
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f4e7fc94b9dc499ff5fdbcb717ecc
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0008
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543401d21d0db1f458dcd1ece5d900f4
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0009
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775c2e23842729458b1ec271d33b0f2
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle-atked_suipian0010
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397dced5ed6f3d846b1f578d9fe97059
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0001
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588db78a64d0b9642b35695b1d13a8e0
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0002
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2228
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ffe68477f852742af14e5cadb5c519
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0003
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2217
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec583699874b194997c7051542a4e87
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0004
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2195
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ab9743ce78d644e9436a31da3b4e70
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0011
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2219
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f04641b624ad294cb82cc0c7e74176f
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-atked_suipian0012
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 2210
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbd9559181dcee4fa5fb39a00c3aa18
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_hited_effect-zhujueatked_00000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1601
+        width: 1700
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f528699a32873d45abbaabcb0e5ada8
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_hited_effect-zhujueatked_00001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1201
+        width: 1700
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d7c09216dfa3647887468d96fb0a48
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_hited_effect-zhujueatked_00002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 1700
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9381238b24cc3ad44a2228d8977473bc
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_hited_effect-zhujueatked_00003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 1700
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d113780c999eb4db6334a265f095a8
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_hited_effect-zhujueatked_00004
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1700
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9714d439f9107645a2f0cf13e8a1b04
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ab532e81ffd90e14dbdb6358526871dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d71bbaddb794d128aa7d0fea433ac37, type: 3}
+  m_Name: Boss08
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: InMeleeAtkRange
+      type:
+        _classRef: Nez.AI.GOAP.IsPlayerInRange, Assembly-CSharp
+      typeData: "{\n  \"KEY_RANGE_X\": \"MeleeAttackRangeX\",\n  \"KEY_RANGE_Y\":
+        \"\",\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 1
+      name: InRemoteAtkRange
+      type:
+        _classRef: Nez.AI.GOAP.IsPlayerInRange, Assembly-CSharp
+      typeData: "{\n  \"KEY_RANGE_X\": \"RemoteAttackRangeX\",\n  \"KEY_RANGE_Y\":
+        null,\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 2
+      name: IsTargetAlive
+      type:
+        _classRef: Nez.AI.GOAP.IsTargetAlive, Assembly-CSharp
+      typeData: "{\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\":
+        null\n}"
+    - id: 404435968
+      name: InAir
+      type:
+        _classRef: Nez.AI.GOAP.CheckCharacterController2DState, Assembly-CSharp
+      typeData: "{\n  \"above\": false,\n  \"below\": false,\n  \"gameObject\": null,\n
+        \ \"transform\": null,\n  \"agent\": null\n}"
+    - id: -973699072
+      name: OnGround
+      type:
+        _classRef: Nez.AI.GOAP.CheckCharacterController2DState, Assembly-CSharp
+      typeData: "{\n  \"above\": false,\n  \"below\": true,\n  \"gameObject\": null,\n
+        \ \"transform\": null,\n  \"agent\": null\n}"
+    - id: -1159803392
+      name: Air Or Ground
+      type:
+        _classRef: Nez.AI.GOAP.ConditionList, Assembly-CSharp
+      typeData: "{\n  \"checkMode\": 1,\n  \"conditions\": [\n    \"InAir\",\n    \"OnGround\"\n
+        \ ],\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 3
+      name: NoEnergy
+      type:
+        _classRef: Nez.AI.GOAP.CheckStatCollectionValue, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Energy\",\n  \"checkType\": 4,\n  \"value\": 0.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 878114816
+      name: Atk_1_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_1_CD\",\n  \"checkType\": 3,\n  \"value\": 10.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 1882780672
+      name: Atk_2_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_2_CD\",\n  \"checkType\": 3,\n  \"value\": 3.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 843466240
+      name: Atk_3_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_3_CD\",\n  \"checkType\": 3,\n  \"value\": 8.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 1731158016
+      name: Atk_4_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_4_CD\",\n  \"checkType\": 3,\n  \"value\": 8.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -76758528
+      name: Atk_5_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_5_CD\",\n  \"checkType\": 3,\n  \"value\": 12.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -599396352
+      name: Atk_6_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_6_CD\",\n  \"checkType\": 3,\n  \"value\": 10.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -1339692032
+      name: Atk_7_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_7_CD\",\n  \"checkType\": 3,\n  \"value\": 8.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 1869048832
+      name: Atk_8_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_8_CD\",\n  \"checkType\": 3,\n  \"value\": 5.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -2102253568
+      name: Atk_9_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Atk_9_CD\",\n  \"checkType\": 3,\n  \"value\": 6.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 1885296128
+      name: Dash_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"Dash_CD\",\n  \"checkType\": 3,\n  \"value\": 3.0,\n
+        \ \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -399352320
+      name: MoveToMelee_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"MoveToMelee_CD\",\n  \"checkType\": 3,\n  \"value\":
+        3.0,\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: 2065664512
+      name: TeleportNear_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\n  \"key\": \"TeleportNear_CD\",\n  \"checkType\": 3,\n  \"value\":
+        5.0,\n  \"gameObject\": null,\n  \"transform\": null,\n  \"agent\": null\n}"
+    - id: -1407012352
+      name: "50% \u6982\u7387"
+      type:
+        _classRef: Nez.AI.GOAP.CheckRandomProbability, Assembly-CSharp
+      typeData: "{\n  \"probability\": 0.5,\n  \"gameObject\": null,\n  \"transform\":
+        null,\n  \"agent\": null\n}"
+    - id: 295238656
+      name: "25% \u6982\u7387"
+      type:
+        _classRef: Nez.AI.GOAP.CheckRandomProbability, Assembly-CSharp
+      typeData: "{\n  \"probability\": 0.25,\n  \"gameObject\": null,\n  \"transform\":
+        null,\n  \"agent\": null\n}"
+  actions:
+  - name: Atk_1
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 878114816
+      value: 1
+    - id: 0
+      value: 0
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_2
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1882780672
+      value: 1
+    - id: 0
+      value: 1
+    - id: -1407012352
+      value: 1
+    post:
+    - id: 2
+      value: 0
+    - id: 404435968
+      value: 1
+  - name: Atk_3
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 843466240
+      value: 1
+    - id: 404435968
+      value: 1
+    - id: 295238656
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: TeleportNear
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 2065664512
+      value: 1
+    post:
+    - id: 404435968
+      value: 1
+    - id: 0
+      value: 1
+    - id: 1
+      value: 1
+  - name: Atk_4
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 0
+    - id: 1731158016
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_5
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 404435968
+      value: 1
+    - id: -76758528
+      value: 1
+    - id: 295238656
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_6
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: -599396352
+      value: 1
+    - id: 295238656
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_7
+    cost: 0
+    isOpened: 0
+    isActived: 0
+    pre:
+    - id: 0
+      value: 0
+    - id: -1339692032
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_7_Sp
+    cost: 0
+    isOpened: 0
+    isActived: 0
+    pre:
+    - id: -1339692032
+      value: 1
+    - id: 0
+      value: 0
+    post:
+    - id: 2
+      value: 0
+    - id: 404435968
+      value: 1
+  - name: DashForward
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 0
+    - id: 1885296128
+      value: 1
+    post:
+    - id: 0
+      value: 1
+  - name: DashBack
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 1
+    post:
+    - id: 0
+      value: 0
+  - name: Atk_8
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1869048832
+      value: 1
+    - id: 1
+      value: 1
+    - id: -1407012352
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_9
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: -2102253568
+      value: 1
+    - id: 0
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: MoveToMeleeRange
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 0
+    - id: -399352320
+      value: 1
+    post:
+    - id: 0
+      value: 1
+  - name: MoveToRemoteRange
+    cost: 0
+    isOpened: 0
+    isActived: 0
+    pre:
+    - id: 1
+      value: 0
+    post:
+    - id: 1
+      value: 1
+  goals:
+  - name: KillPlayer
+    isOpened: 0
+    conditions:
+    - id: 2
+      value: 0

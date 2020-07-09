@@ -1,0 +1,2447 @@
+fileFormatVersion: 2
+guid: b4548a89abec2ae40961d1a0697dc17e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Boss08_Animation_01_10
+  - first:
+      213: 21300002
+    second: arrowboss_chuansongdianlu_00000
+  - first:
+      213: 21300004
+    second: arrowboss_chuansongdianlu_00001
+  - first:
+      213: 21300006
+    second: arrowboss_chuansongdianlu_00002
+  - first:
+      213: 21300008
+    second: arrowboss_chuansongdianlu_00003
+  - first:
+      213: 21300010
+    second: arrowboss_chuansongdianlu_00004
+  - first:
+      213: 21300012
+    second: arrowboss_chuansongdianlu_00005
+  - first:
+      213: 21300014
+    second: arrowboss_chuansongdianlu_00006
+  - first:
+      213: 21300016
+    second: arrowboss_chuansongdianlu_00007
+  - first:
+      213: 21300018
+    second: arrowboss_chuansongdianlu_00008
+  - first:
+      213: 21300020
+    second: arrowboss_chuansongdianlu_00009
+  - first:
+      213: 21300022
+    second: arrowboss_chuansongdianlu_00010
+  - first:
+      213: 21300024
+    second: arrowboss_chuansongdianlu_00011
+  - first:
+      213: 21300026
+    second: arrowboss_chuansongdianlu_00012
+  - first:
+      213: 21300028
+    second: arrowboss_chuansongdianlu_00013
+  - first:
+      213: 21300030
+    second: arrowboss_chuansongdianlu_00014
+  - first:
+      213: 21300032
+    second: arrowboss_chuansongdianlu_00015
+  - first:
+      213: 21300034
+    second: arrowboss_chuansongdianlu_00016
+  - first:
+      213: 21300036
+    second: arrowboss_chuansongdianlu_00017
+  - first:
+      213: 21300038
+    second: arrowboss_chuansongdianlu_00018
+  - first:
+      213: 21300040
+    second: arrowboss_chuansongdianlu_00019
+  - first:
+      213: 21300042
+    second: arrowboss_chuansongdianlu_00020
+  - first:
+      213: 21300044
+    second: arrowboss_chuansongdianlu_00021
+  - first:
+      213: 21300046
+    second: arrowboss_chuansongdianlu_00022
+  - first:
+      213: 21300048
+    second: arrowboss_chuansongdianlu_00023
+  - first:
+      213: 21300050
+    second: arrowboss_chuansongdianlu_00024
+  - first:
+      213: 21300052
+    second: arrowboss_chuansongdianlu_00025
+  - first:
+      213: 21300054
+    second: arrowboss_chuansongdianlu_00026
+  - first:
+      213: 21300056
+    second: arrowboss_chuansongend0001
+  - first:
+      213: 21300058
+    second: arrowboss_chuansongend0002
+  - first:
+      213: 21300060
+    second: arrowboss_chuansongend0003
+  - first:
+      213: 21300062
+    second: arrowboss_chuansongend0004
+  - first:
+      213: 21300064
+    second: arrowboss_chuansongend0005
+  - first:
+      213: 21300066
+    second: arrowboss_chuansongend0006
+  - first:
+      213: 21300068
+    second: arrowboss_chuansongend0007
+  - first:
+      213: 21300070
+    second: arrowboss_chuansongend0008
+  - first:
+      213: 21300072
+    second: arrowboss_chuansongend0009
+  - first:
+      213: 21300074
+    second: arrowboss_chuansongend0010
+  - first:
+      213: 21300076
+    second: arrowboss_chuansongend0011
+  - first:
+      213: 21300078
+    second: arrowboss_chuansongstart0002
+  - first:
+      213: 21300080
+    second: arrowboss_chuansongstart0003
+  - first:
+      213: 21300082
+    second: arrowboss_chuansongstart0004
+  - first:
+      213: 21300084
+    second: arrowboss_chuansongstart0005
+  - first:
+      213: 21300086
+    second: arrowboss_chuansongstart0006
+  - first:
+      213: 21300088
+    second: arrowboss_chuansongstart0007
+  - first:
+      213: 21300090
+    second: arrowboss_chuansongstart0008
+  - first:
+      213: 21300092
+    second: arrowboss_chuansongstart0009
+  - first:
+      213: 21300094
+    second: arrowboss_chuansongstart0010
+  - first:
+      213: 21300096
+    second: arrowboss_chuansongstart0011
+  - first:
+      213: 21300098
+    second: arrowboss_chuansongstart0012
+  - first:
+      213: 21300100
+    second: arrowboss_houdash0001
+  - first:
+      213: 21300102
+    second: arrowboss_houdash0002
+  - first:
+      213: 21300104
+    second: arrowboss_houdash0003
+  - first:
+      213: 21300106
+    second: arrowboss_houdash0004
+  - first:
+      213: 21300108
+    second: arrowboss_run0014
+  - first:
+      213: 21300110
+    second: arrowboss_run0015
+  - first:
+      213: 21300112
+    second: arrowboss_run0016
+  - first:
+      213: 21300114
+    second: arrowboss_stand0001
+  - first:
+      213: 21300116
+    second: arrowboss_stand0002
+  - first:
+      213: 21300118
+    second: arrowboss_stand0003
+  - first:
+      213: 21300120
+    second: arrowboss_stand0004
+  - first:
+      213: 21300122
+    second: arrowboss_stand0005
+  - first:
+      213: 21300124
+    second: arrowboss_stand0006
+  - first:
+      213: 21300126
+    second: arrowboss_stand0007
+  - first:
+      213: 21300128
+    second: arrowboss_stand0008
+  - first:
+      213: 21300130
+    second: arrowboss_stand0009
+  - first:
+      213: 21300132
+    second: arrowboss_stand0010
+  - first:
+      213: 21300134
+    second: arrowboss_stand0011
+  - first:
+      213: 21300136
+    second: arrowboss_stand0012
+  - first:
+      213: 21300138
+    second: arrowboss_stand0013
+  - first:
+      213: 21300140
+    second: arrowboss_stand0014
+  - first:
+      213: 21300142
+    second: arrowboss_stand0015
+  - first:
+      213: 21300144
+    second: arrowboss_stand0016
+  - first:
+      213: 21300146
+    second: arrowboss_stand0017
+  - first:
+      213: 21300148
+    second: arrowboss_stand0018
+  - first:
+      213: 21300150
+    second: arrowboss_stand0019
+  - first:
+      213: 21300152
+    second: arrowboss_stand0020
+  - first:
+      213: 21300154
+    second: arrowboss_stand0021
+  - first:
+      213: 21300156
+    second: arrowboss_stand0022
+  - first:
+      213: 21300158
+    second: arrowboss_stand0023
+  - first:
+      213: 21300160
+    second: arrowboss_stand0024
+  - first:
+      213: 21300162
+    second: arrowboss_stand0025
+  - first:
+      213: 21300164
+    second: arrowboss_stand0026
+  - first:
+      213: 21300166
+    second: arrowboss_stand0027
+  - first:
+      213: 21300168
+    second: arrowboss_stand0028
+  - first:
+      213: 21300170
+    second: arrowboss_stand0029
+  - first:
+      213: 21300172
+    second: arrowboss_stand0030
+  - first:
+      213: 21300174
+    second: arrowboss_stand0031
+  - first:
+      213: 21300176
+    second: arrowboss_stand0032
+  - first:
+      213: 21300178
+    second: arrowboss_yuandian_00000
+  - first:
+      213: 21300180
+    second: arrowboss_yuandian_00001
+  - first:
+      213: 21300182
+    second: arrowboss_yuandian_00002
+  - first:
+      213: 21300184
+    second: arrowboss_yuandian_00003
+  - first:
+      213: 21300186
+    second: arrowboss_yuandian_00004
+  - first:
+      213: 21300188
+    second: arrowboss_yuandian_00005
+  - first:
+      213: 21300190
+    second: arrowboss_yuandian_00006
+  - first:
+      213: 21300192
+    second: arrowboss_yuandian_00007
+  - first:
+      213: 21300194
+    second: arrowboss_yuandian_00008
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00000
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1887
+        width: 540
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee10cf5a586ade478bd92af28552fe6
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1285
+        width: 540
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d420c44bebdd8e64d90f33bf84d7c306
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00002
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1730
+        width: 540
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba4f351ef9dccb469fd5f6431706efb
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00003
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1581
+        width: 540
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47972974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ae162673632204691a0875ddbd43b3
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00004
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1514
+        width: 498
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43939394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e4ad7ecad304b459c225cd7f04ecd1
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00005
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 264
+        width: 498
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4047619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828c7e75605e5da449a81757f809ad83
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00006
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 246
+        width: 498
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc8862028ca5846bf7b028b5d6b365
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00007
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 260
+        width: 480
+        height: 46
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.4347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae3c96c2c9efe14ebbc219d8071b94a
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 258
+        width: 480
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5125, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db60c529419986e40b50957515046840
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00009
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 356
+        width: 482
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5103735, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a320a752f2ac5de458487f88a24e14f8
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00010
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 307
+        width: 480
+        height: 48
+      alignment: 9
+      pivot: {x: 0.50625, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e911c321c127ea94bb4004c23e4b0f87
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 480
+        height: 48
+      alignment: 9
+      pivot: {x: 0.50208336, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f565f2685b623479ab9ede2bad6b07
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00012
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 267
+        width: 480
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49791667, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61b1c97c12602f4d8f35eacb2b5781d
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00013
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1530
+        width: 480
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49583334, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0244c6f29feb3254ab16d8d51b0ec1aa
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00014
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1463
+        width: 480
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6e734a97d16ba4e8cd9c76eae05dee
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00015
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 452
+        width: 476
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49369746, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09f94d2c68e5f943bd469a9d4bf3a7c
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00016
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 552
+        width: 434
+        height: 50
+      alignment: 9
+      pivot: {x: 0.53456223, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc9e498bec93404f92e9aee12b24f5d
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00017
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 503
+        width: 430
+        height: 48
+      alignment: 9
+      pivot: {x: 0.53023255, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d9a7ec5cc45e14086251daf9d21136
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00018
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 454
+        width: 424
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5259434, y: 0.39583334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34a550d319b9eb4db12e532dc774ad1
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00019
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 405
+        width: 354
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45480227, y: 0.39583334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af5b787e78dfba4fa0a3d1f6ed2b7f1
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00020
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 405
+        width: 340
+        height: 46
+      alignment: 9
+      pivot: {x: 0.46764705, y: 0.39130434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cf1f5ca21e6b34eb8b807cdeb259e1
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00021
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 360
+        width: 334
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47005987, y: 0.38636363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98afed9caff456449baf0312cdd17f0e
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00022
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 373
+        width: 330
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1390594e648e86248ac8b1361d13a12a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00023
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 334
+        width: 318
+        height: 38
+      alignment: 9
+      pivot: {x: 0.46226415, y: 0.34210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4694f76915cf5df4ea02bf8c47e68c1e
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00024
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 604
+        width: 214
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6682243, y: 0.3529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b28f27c1277c4b90e504460898d19
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00025
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 603
+        width: 202
+        height: 28
+      alignment: 9
+      pivot: {x: 0.6831683, y: 0.32142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a88129157c2c2345a289ddca8d65c10
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongdianlu_00026
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1458
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 21, y: -0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df35446f7ba3dfd48aa05ff240cd5f61
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0001
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1740
+        width: 233
+        height: 149
+      alignment: 9
+      pivot: {x: 0.50429183, y: 0.4194631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd06214b62bfd1145b7fd9dd63437e70
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0002
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 657
+        width: 237
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42903227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113d477f681d2d747b273e2ce71f87fa
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0003
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 778
+        width: 237
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42903227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f68dc8272c0069449cf02f2eb455924
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0004
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1586
+        width: 233
+        height: 149
+      alignment: 9
+      pivot: {x: 0.50429183, y: 0.4194631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb42cc830008e846abf4d5510779cdc
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0005
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 414
+        width: 227
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972305c9ba85cff4e9c8269d36edf701
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 387
+        width: 229
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5043668, y: 0.41240877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9ea7be9c5df034e902c01742f7136a
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0007
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 517
+        width: 231
+        height: 139
+      alignment: 9
+      pivot: {x: 0.504329, y: 0.41366908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7252e873fabea2a4190b46fa44ad7c68
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0008
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1582
+        width: 233
+        height: 141
+      alignment: 9
+      pivot: {x: 0.50429183, y: 0.4219858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2cd4e153dcdd24791196c82ff833fa
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 665
+        width: 233
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49570817, y: 0.43103448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97faaf79bea8935459ce167db4492143
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0010
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1734
+        width: 237
+        height: 151
+      alignment: 9
+      pivot: {x: 0.4957806, y: 0.44039735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475f851806c560c438353a52cccff293
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongend0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 811
+        width: 237
+        height: 157
+      alignment: 9
+      pivot: {x: 0.48312235, y: 0.45541403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2f7f9c84feef54cbce5be12bc75e86
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0002
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 318
+        width: 237
+        height: 157
+      alignment: 9
+      pivot: {x: 0.48312235, y: 0.45541403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197d5ef16022b9f40ade6914837eba6c
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0003
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1582
+        width: 233
+        height: 151
+      alignment: 9
+      pivot: {x: 0.48712447, y: 0.44039735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcddfafe590a4eb46b69d4b23e60291d
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0004
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 632
+        width: 233
+        height: 145
+      alignment: 9
+      pivot: {x: 0.49570817, y: 0.43103448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6103b330a63714dacf65757bcbd054
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0005
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1582
+        width: 231
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4219858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993e4586a6e7a854191ea1af2c2506be
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 525
+        width: 231
+        height: 139
+      alignment: 9
+      pivot: {x: 0.504329, y: 0.41366908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc61b2ab75a7a54191aa2f599a09a24
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0007
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 639
+        width: 227
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41240877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01049d3653cc2f24196ec0c9156b3f7b
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0008
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 538
+        width: 227
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7db7d780320d4f42b3981a4d49ba9d8
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0009
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1736
+        width: 233
+        height: 149
+      alignment: 9
+      pivot: {x: 0.50429183, y: 0.4194631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6170f8134e0bf24cb59deac4e9bafd3
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0010
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 813
+        width: 239
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5041841, y: 0.42903227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d7300048eb2564e91f2c7630ddcfef
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0011
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 470
+        width: 241
+        height: 155
+      alignment: 9
+      pivot: {x: 0.50829875, y: 0.42903227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73fe3f5685bef94bbfeee1c288c6d4a
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_chuansongstart0012
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1582
+        width: 237
+        height: 149
+      alignment: 9
+      pivot: {x: 0.51265824, y: 0.4194631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484696f5a9234ee41a0b4097b3d156c6
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_houdash0001
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 937
+        width: 205
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38770053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0426fa98ef296e498b94f21787ecd2c
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_houdash0002
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 992
+        width: 205
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39304814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf9e50dc3c04fa4b8d5eb4503eed77a
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_houdash0003
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1072
+        width: 205
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38770053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771c1bd8d7d209488698851796e6be9
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_houdash0004
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1180
+        width: 205
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38770053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd48b2f24a0f202419d659549c58b89e
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_run0014
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 722
+        width: 209
+        height: 173
+      alignment: 9
+      pivot: {x: 0.48564592, y: 0.4248555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1865dc04653ab48877ded6165b9276
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_run0015
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 896
+        width: 207
+        height: 175
+      alignment: 9
+      pivot: {x: 0.48067632, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370af95425e734b479b891e6e5d50143
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_run0016
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 550
+        width: 207
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.40643275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db567aaf0ec59644b922c923ee2b3745
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0001
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1368
+        width: 241
+        height: 161
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b8a93709e61d9418e83408b5f0c23e
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0002
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1886
+        width: 241
+        height: 161
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6f9490a4aedd842b7d5ff2bb2b0598
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0003
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1125
+        width: 243
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47530866, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db46e3d73ea138468673a5b44002b8c
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0004
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1260
+        width: 243
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47530866, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74c1da25724f32499a7ba8ab4bed028
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0005
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 777
+        width: 239
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4665272, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fce98440195d3a4faf4c42ddd5a85a1
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0006
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 786
+        width: 241
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df60ecbc086479841a75d6f79790c8b8
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0007
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 792
+        width: 241
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fdeaab4a90dd34289eaf244b7ec41f
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0008
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 934
+        width: 239
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4623431, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7d4cd196c96ad4d95cfd8d281591a9
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0009
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 674
+        width: 241
+        height: 157
+      alignment: 9
+      pivot: {x: 0.46680498, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00e2c80fea41a8418e6ab881269c3a3
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0010
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 476
+        width: 243
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4711934, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd592a2e2a900042a1cdbafa3d0c63b
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0011
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 952
+        width: 245
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4755102, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9021052b65cebb3449a993be9e74a01d
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0012
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1106
+        width: 245
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4755102, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9900be5da2744c64ab78d726e941312f
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0013
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1732
+        width: 249
+        height: 157
+      alignment: 9
+      pivot: {x: 0.47991967, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf696e77ac48aa42bc315d4af987048
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0014
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1268
+        width: 249
+        height: 155
+      alignment: 9
+      pivot: {x: 0.47991967, y: 0.46774194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997f3117037ffed4dbdcb580ed4de90e
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0015
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1129
+        width: 251
+        height: 155
+      alignment: 9
+      pivot: {x: 0.48406374, y: 0.46774194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03561475db5a45547ac14eea424244d1
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1129
+        width: 251
+        height: 155
+      alignment: 9
+      pivot: {x: 0.48406374, y: 0.46774194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79fddc7d39bd3c4bbecbcd44f8c35f5
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0017
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1094
+        width: 249
+        height: 155
+      alignment: 9
+      pivot: {x: 0.48393574, y: 0.46774194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b86b0033a3fe142a59cc0e0339863f
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0018
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1424
+        width: 247
+        height: 157
+      alignment: 9
+      pivot: {x: 0.47975707, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a837e3cf2e3fd014ca628034c9d99020
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0019
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1890
+        width: 249
+        height: 157
+      alignment: 9
+      pivot: {x: 0.47991967, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4db6a2ebc431c498e168aa076a3e91
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0020
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1890
+        width: 247
+        height: 157
+      alignment: 9
+      pivot: {x: 0.47975707, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b588ca38d0d604082b9de7e2d0c25d
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0021
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1424
+        width: 247
+        height: 157
+      alignment: 9
+      pivot: {x: 0.47975707, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb2848cfc1a1924ebeb3de9d553f8fc
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0022
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1110
+        width: 245
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4755102, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897e1ada4112da943b14308e098dab84
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0023
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 634
+        width: 243
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4711934, y: 0.46178344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be118b1b431afce44ac247ac22b3454f
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0024
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 969
+        width: 239
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4623431, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0797dee8caf384bb78114bd9cf593e
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 969
+        width: 239
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4665272, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e76c89446cb4fc46b8ed2afb1706267
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0026
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 626
+        width: 239
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4665272, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20cc1ae73e91664e8bd9c3f6db3b15d
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0027
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 832
+        width: 241
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f15c0e5854e1814a9ecbfe01ca7aa8b
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0028
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 946
+        width: 241
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dd4ed9aab2a2b4a8090b8098979934
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0029
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1264
+        width: 243
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47530866, y: 0.45597485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3791da8d2a678a34fb07e530b7e8b3d9
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0030
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1724
+        width: 243
+        height: 161
+      alignment: 9
+      pivot: {x: 0.47530866, y: 0.45031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f93f783ed4e203478a44aa41d459359
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0031
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1886
+        width: 243
+        height: 161
+      alignment: 9
+      pivot: {x: 0.47530866, y: 0.45031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08058dfafcf421642b9177d34990970d
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_stand0032
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1420
+        width: 241
+        height: 161
+      alignment: 9
+      pivot: {x: 0.47095436, y: 0.45031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9f90935566dae4ba684848cbd62b98
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1446
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ec18706afea734cab6596ec68795c4
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1747
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b367ddad69024095e82203752e0a0
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00002
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1285
+        width: 228
+        height: 228
+      alignment: 9
+      pivot: {x: 0.50438595, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5362b0e812a93f14a8897b7c009b3489
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00003
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1250
+        width: 212
+        height: 212
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.504717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf3931e93803774bbc4b4cb4ef9e13c
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00004
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 307
+        width: 162
+        height: 162
+      alignment: 9
+      pivot: {x: 0.50617284, y: 0.50617284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f93a5565fa0b54193c299640dee8c3
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00005
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1907
+        width: 140
+        height: 140
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7fd3b03d41ccd4990fb84df8731f20
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00006
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 817
+        width: 134
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5074627, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1b059e71feafc4a93cb6250639cf1f
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00007
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 686
+        width: 132
+        height: 130
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4dcf6c167593e4094c774a6570ceed
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowboss_yuandian_00008
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 563
+        width: 122
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd2b768962caec498d4b79a8a3a4678
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 251de12b7341517409f6cc59b80af797
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

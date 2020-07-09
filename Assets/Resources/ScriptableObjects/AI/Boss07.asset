@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d71bbaddb794d128aa7d0fea433ac37, type: 3}
+  m_Name: Boss07
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: InMeleeAtkRange
+      type:
+        _classRef: Nez.AI.GOAP.IsPlayerInRange, Assembly-CSharp
+      typeData: "{\r\n  \"KEY_RANGE_X\": \"MeleeAttackRangeX\",\r\n  \"KEY_RANGE_Y\":
+        \"\",\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 1
+      name: InRemoteAtkRange
+      type:
+        _classRef: Nez.AI.GOAP.IsPlayerInRange, Assembly-CSharp
+      typeData: "{\r\n  \"KEY_RANGE_X\": \"RemoteAttackRangeX\",\r\n  \"KEY_RANGE_Y\":
+        null,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 2
+      name: IsTargetAlive
+      type:
+        _classRef: Nez.AI.GOAP.IsTargetAlive, Assembly-CSharp
+      typeData: "{\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 3
+      name: NoEnergy
+      type:
+        _classRef: Nez.AI.GOAP.CheckStatCollectionValue, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Energy\",\r\n  \"checkType\": 4,\r\n  \"value\":
+        0.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 878114816
+      name: Atk_1_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_1_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        17.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 1882780672
+      name: Atk_2_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_2_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        37.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 843466240
+      name: Atk_3_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_3_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        3.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 1731158016
+      name: Atk_4_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_4_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        12.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: -76758528
+      name: Atk_5_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_5_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        13.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: -599396352
+      name: Atk_6_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_6_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        15.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: -1339692032
+      name: Atk_7_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_7_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        49.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: 1869048832
+      name: Atk_8_CDReady
+      type:
+        _classRef: Nez.AI.GOAP.CheckEnemyTimeLayerInterval, Assembly-CSharp
+      typeData: "{\r\n  \"key\": \"Atk_8_CD\",\r\n  \"checkType\": 3,\r\n  \"value\":
+        21.0,\r\n  \"gameObject\": null,\r\n  \"transform\": null,\r\n  \"agent\":
+        null\r\n}"
+    - id: -1096021504
+      name: "50% \u6982\u7387"
+      type:
+        _classRef: Nez.AI.GOAP.CheckRandomProbability, Assembly-CSharp
+      typeData: "{\n  \"probability\": 0.5,\n  \"gameObject\": null,\n  \"transform\":
+        null,\n  \"agent\": null\n}"
+    - id: 1835126272
+      name: "30% \u6982\u7387"
+      type:
+        _classRef: Nez.AI.GOAP.CheckRandomProbability, Assembly-CSharp
+      typeData: "{\n  \"probability\": 0.3,\n  \"gameObject\": null,\n  \"transform\":
+        null,\n  \"agent\": null\n}"
+  actions:
+  - name: Atk_1
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 878114816
+      value: 1
+    - id: -1096021504
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_3
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 1
+    - id: 843466240
+      value: 1
+    - id: 1835126272
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_7
+    cost: 1
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: -1339692032
+      value: 1
+    - id: 1835126272
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_5
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: -76758528
+      value: 1
+    - id: 1835126272
+      value: 1
+    - id: 0
+      value: 0
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_6
+    cost: 1
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: -599396352
+      value: 1
+    - id: 1835126272
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_4
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1731158016
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 2
+      value: 0
+  - name: MoveToRemoteRange
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1
+      value: 0
+    post:
+    - id: 1
+      value: 1
+  - name: Atk_2
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1882780672
+      value: 1
+    - id: 1835126272
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: Atk_8
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 1869048832
+      value: 1
+    - id: 1835126272
+      value: 1
+    post:
+    - id: 2
+      value: 0
+  - name: MoveToMeleeRange
+    cost: 0
+    isOpened: 0
+    isActived: 1
+    pre:
+    - id: 0
+      value: 0
+    post:
+    - id: 0
+      value: 1
+  - name: Rest
+    cost: 0
+    isOpened: 0
+    isActived: 0
+    pre:
+    - id: 3
+      value: 1
+    post:
+    - id: 3
+      value: 0
+  goals:
+  - name: KillPlayer
+    isOpened: 0
+    conditions:
+    - id: 2
+      value: 0

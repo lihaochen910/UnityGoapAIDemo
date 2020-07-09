@@ -1,0 +1,4504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &303552603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303552606}
+  - component: {fileID: 303552605}
+  - component: {fileID: 303552604}
+  - component: {fileID: 303552607}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &303552604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303552603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d65fb99dac04de4b9d9c6f3d81a5263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetActive: 1
+  followMode: 0
+  inertial: 0
+  smoothTime_X: 0.3
+  smoothTime_Y: 0.2
+  Offset: {x: 0, y: 2}
+  _target: {fileID: 2652419073019036831}
+  _point: {x: 0, y: 0, z: 0}
+  useEdgeLimit: 0
+  P1: {x: 0, y: 0, z: 0}
+  P2: {x: 0, y: 0, z: 0}
+  P3: {x: 0, y: 0, z: 0}
+  P4: {x: 0, y: 0, z: 0}
+  minX: 0
+  minY: 0
+  maxX: 0
+  maxY: 0
+--- !u!20 &303552605
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303552603}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5.4
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &303552606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303552603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303552607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303552603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf31a072432edb48ac0585eea53ac13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persistent: 0
+--- !u!1 &544322960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 544322963}
+  - component: {fileID: 544322962}
+  - component: {fileID: 544322961}
+  m_Layer: 8
+  m_Name: Platform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &544322961
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544322960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 17.000002, y: 4}
+    newSize: {x: 17.000002, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 17.000002, y: 4}
+  m_EdgeRadius: 0
+--- !u!212 &544322962
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544322960}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300112, guid: efd71d9c9005364468f36571aa738370, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 17.000002, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &544322963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544322960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1767015, y: -5.5135965, z: 0}
+  m_LocalScale: {x: 10, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1007983755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007983756}
+  - component: {fileID: 1007983759}
+  - component: {fileID: 1007983758}
+  - component: {fileID: 1007983757}
+  m_Layer: 0
+  m_Name: Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007983756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007983755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1007983757
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007983755}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ceef1ecad4e3f074eaef2d2109ffbd39, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.9, y: 1.01}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1007983758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007983755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa74f5a6312f48709c458acb659cf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defines:
+  - {fileID: 11400000, guid: 9c760ae7289a0474a95f0620f5746986, type: 2}
+--- !u!114 &1007983759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007983755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e56391640a92b642a26b27608f3910c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _statCollectionId: -1
+--- !u!50 &543188508062109620
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553122289717391696}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
+--- !u!61 &1025209049764165893
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553122289717391696}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.38043478, y: 0.5540541}
+    oldSize: {x: 2.76, y: 2.96}
+    newSize: {x: 2.76, y: 2.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0001, y: 0.0001}
+  m_EdgeRadius: 0
+--- !u!1 &2553122289717391696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4249591255851606870}
+  - component: {fileID: 543188508062109620}
+  - component: {fileID: 1025209049764165893}
+  - component: {fileID: 3107608484524747001}
+  m_Layer: 19
+  m_Name: HitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2595366403279332633
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029299498, y: 0.053334713}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.62186956, y: 1.5371952}
+  m_EdgeRadius: 0
+--- !u!61 &2595926593924054049
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655988735423909879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.027404398, y: 0.053334713}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5650167, y: 1.5371952}
+  m_EdgeRadius: 0
+--- !u!4 &2652168053470620735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655662801644333969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2652428339378747759}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2652419073019036831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.66, y: -2.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2652428339378747759}
+  - {fileID: 2652940564183422709}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2652428339378747759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2652168053470620735}
+  - {fileID: 4249591255851606870}
+  m_Father: {fileID: 2652419073019036831}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2652940564183422709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655988735423909879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2652419073019036831}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2655662801644333969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652168053470620735}
+  - component: {fileID: 2750600692441865523}
+  - component: {fileID: 2706594318390068335}
+  m_Layer: 0
+  m_Name: ParticleSEAnimator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2655749167481835748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e290ea18bfaf74e9c09d57bbc99be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookRangeColor: {r: 0, g: 0, b: 1, a: 1}
+  chaseRangeColor: {r: 0, g: 1, b: 0, a: 1}
+  meleeAttackRangeColor: {r: 1, g: 0, b: 0, a: 1}
+  jumpAttackRangeColor: {r: 128, g: 0, b: 128, a: 1}
+  remoteAttackRangeColor: {r: 0, g: 1, b: 1, a: 1}
+  safeRangeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!1 &2655749167481835755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652428339378747759}
+  - component: {fileID: 2751099692136002265}
+  - component: {fileID: 2706043217746574167}
+  - component: {fileID: 2687413258845421575}
+  - component: {fileID: 2686440753681036933}
+  - component: {fileID: 2655749167481835748}
+  m_Layer: 19
+  m_Name: ActionAnimator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2655871449277887872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9874dbfc584967a116d4b8fbce061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: {fileID: 11400000, guid: c1e3f906cbc0344fb8583351a67f2da1, type: 2}
+--- !u!114 &2655871449277887873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99ca103839144f7bb91e4386be57297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformComponent: {fileID: 2652428339378747759}
+--- !u!1 &2655871449277887879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652419073019036831}
+  - component: {fileID: 8921030260644509860}
+  - component: {fileID: 8920565221456282112}
+  - component: {fileID: 2595366403279332633}
+  - component: {fileID: 2685961998261904601}
+  - component: {fileID: 2655871449277887873}
+  - component: {fileID: 2687341214513699677}
+  - component: {fileID: 2687494844723740065}
+  - component: {fileID: 2655871449277887872}
+  - component: {fileID: 2686567378857469609}
+  m_Layer: 15
+  m_Name: Boss08_a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2655988735423909879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652940564183422709}
+  - component: {fileID: 2595926593924054049}
+  - component: {fileID: 3494897036626399610}
+  m_Layer: 15
+  m_Name: BodyCollider
+  m_TagString: Monster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2685961998261904601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b005891a5d1c45cc8cea8c713a8bfe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreOneWayPlatformsThisFrame: 0
+  _skinWidth: 0.02
+  platformMask:
+    serializedVersion: 2
+    m_Bits: 1280
+  oneWayPlatformMask:
+    serializedVersion: 2
+    m_Bits: 512
+  blockMask:
+    serializedVersion: 2
+    m_Bits: 0
+  slopeLimit: 80
+  jumpingThreshold: 0.07
+  slopeSpeedMultiplier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -90
+      value: 1.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 90
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  totalHorizontalRays: 6
+  totalVerticalRays: 3
+--- !u!114 &2686440753681036933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57dbda0f76b2bb04c96f1346b40fa3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetActive: 1
+  speed: 1
+  layer: 2
+  ignoreGlobal: 0
+  autoUpdate: 0
+--- !u!114 &2686567378857469609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedBlackboard: '{"_variables":{"Target":{"_value":1,"_name":"Target","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Candidate
+    Targets":{"_value":[],"_name":"Candidate Targets","_id":"8ecbda81-2b17-432e-8f94-91e0fff6e9d0","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 1007983756}
+--- !u!114 &2687341214513699677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fb70b5a443a15499ce55201244649e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetActive: 1
+  StatCollection: {fileID: 0}
+  controller: {fileID: 0}
+  Mass: 1
+  velocity: {x: 0, y: 0}
+  ActiveGravity: 1
+  MoveByDirectionInput: 0
+--- !u!114 &2687413258845421575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d099bf53b4de1f41b3a151c422f2059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2687494844723740065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: Boss08_FSM
+    startState: Idle
+    states:
+    - name: Idle
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 560.3828
+        y: 854.5703
+        width: 153
+        height: 256
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: OnTakeDamage
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: CheckHP
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: OnFalling
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 2
+        colorIndex: 0
+      - fsmEvent:
+          name: InputAxis != 0
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: MoveToMeleeRange
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Back
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DashBack
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Dash
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DashForward
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_1
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_4
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_4
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_6
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_6
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_7
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_7_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_7_Sp
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_7_Sp_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_8
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_8
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_9
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_9_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: MoveToMeleeRange
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: MoveToMeleeRange
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: TeleportNear
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: TeleportNear_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - Action_Idle
+        - MonsterAnimationSwitchActionU2D
+        - Action_GoapDoAction
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000000000005000000
+        actionHashCodes: 000000000be04302296ada02
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_stand
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - Atk_1
+        - Z_Atk_1
+        - Atk_2
+        - Z_Atk_2
+        - DashForward
+        - Dash
+        - DashBack
+        - Back
+        - MoveToMeleeRange
+        - MoveToMeleeRange
+        - Atk_4
+        - Z_Atk_4
+        - Atk_6
+        - Z_Atk_6
+        - Atk_7
+        - Z_Atk_7
+        - Atk_8
+        - Z_Atk_8
+        - Atk_9
+        - Z_Atk_9
+        - TeleportNear
+        - TeleportNear
+        - Atk_7_Sp
+        - Z_Atk_7_Sp
+        byteData: 0000
+        arrayParamSizes: 0c000000
+        arrayParamTypes:
+        - Action_GoapDoAction+GoapParams
+        customTypeSizes: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+        customTypeNames:
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        paramDataType: 05000000120000001700000001000000010000000c000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - list
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        paramDataPos: 00000000000000000000000000000000010000000000000000000000010000000200000001000000030000000400000002000000050000000600000003000000070000000800000004000000090000000a000000050000000b0000000c000000060000000d0000000e000000070000000f000000100000000800000011000000120000000900000013000000140000000a00000015000000160000000b0000001700000018000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: Destroy
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 885.8281
+        y: 400.6953
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: CheckHP
+      description: 
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 563.5781
+        y: 335.0078
+        width: 114
+        height: 128
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Dead
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Dead_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: DeadHeavy
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Dead_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Behit_Cut
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Behit_Hit
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Behit_Remote
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BehitHeavy
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Behit_Fatal
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: MoveToMeleeRange
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 851.72656
+        y: 940.8281
+        width: 153
+        height: 80
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: InputAxis == 0
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_1
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_4
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_4
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Enemy.Action_MoveToRange
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000c000000
+        actionHashCodes: 0be04302f7ecc5007ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_run
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - RunSpeed
+        - MeleeAttackRangeX
+        - InputAxis == 0
+        - MoveToMelee_CD
+        byteData: 00000ad7233c0101010001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000003000000030000000200000001000000010000000100000017000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Key_MOVE_SPEED
+        - KEY_RANGE_X
+        - okDistance
+        - dynamicMove
+        - faceToTarget
+        - dynamicFaceTo
+        - finishEvent
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 00000000000000000000000000000000010000000100000002000000020000000600000007000000080000000300000004000000090000000a0000000b0000000c0000000d000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000400000001000000010000000100000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_1
+      description: "\u8FDE\u7EED\u5C04\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1201.7031
+        y: 682.8828
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk1
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: 0be043029a270f037ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk01
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_1
+        - Atk_1_CD
+        byteData: 0100ae4761bf7b14ee3e00007041000000c0000040400001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 05000000120000001700000001000000010000000800000002000000020000000200000003000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Offset
+        - FlySpeed
+        - AngleMin
+        - AngleMax
+        - DamageKey
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 0000000000000000000000000000000001000000020000000a0000000e000000120000000100000002000000160000001700000018000000190000001a000000
+        paramByteDataSize: 00000000000000000000000001000000010000000800000004000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_2
+      description: "\u540E\u8DF3\u5C04\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1200.6406
+        y: 810.3281
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk2
+        - Enemy.Action_MonsterAnimationCurveMove
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        - Action_Write Enemy Layer Time
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000b00000011000000
+        actionHashCodes: 0be04302bc191d00657f3d007ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0.9998479
+              inSlope: -0.09412376
+              outSlope: -0.09412376
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.046402253
+            - serializedVersion: 3
+              time: 1
+              value: 0.6221528
+              inSlope: 0.0134846065
+              outSlope: 0.0134846065
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.16765061
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0.13314332
+              outSlope: 0.13314332
+              tangentMode: 34
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.39999998
+              value: 0.053257328
+              inSlope: 0.022190556
+              outSlope: 0.022190556
+              tangentMode: 34
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -0.08876221
+              outSlope: -0.08876221
+              tangentMode: 34
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk02
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_2
+        - 
+        - Atk_2_CD
+        byteData: 01006f12833e6666e63e00007041000000c2000020c00000f04000000040000020c10000f0419a99993e0001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000080000000200000002000000080000000200000003000000160000000200000016000000020000000200000017000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Offset
+        - FlySpeed
+        - Angle
+        - JumpBackVelocity
+        - JumpBackFlySpeed
+        - DamageKey
+        - curveX
+        - curveXSpeed
+        - curveY
+        - curveYSpeed
+        - time
+        - completedEvent
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 0000000000000000000000000000000001000000020000000a0000000e000000120000001a00000001000000000000001e00000001000000220000002600000002000000030000002a0000002b0000002c0000002d0000002e000000
+        paramByteDataSize: 0000000000000000000000000100000001000000080000000400000004000000080000000400000000000000000000000400000000000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: DashBack
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 269.6797
+        y: 872.09375
+        width: 125
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: InputAxis == 0
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Enemy.Action_DashTowardTarget
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be0430286575d00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_houdash
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - DashSpeed
+        - InputAxis == 0
+        byteData: 000000010000009a99193ecdcc4c3e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000010000000000000003000000020000000200000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - TowardTarget
+        - FaceDirection
+        - Key_DASH_SPEED
+        - dashDurationMin
+        - dashDurationMax
+        - finishEvent
+        paramDataPos: 0000000000000000000000000000000001000000020000000300000001000000070000000b00000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000010000000400000000000000040000000400000000000000
+    - name: DashForward
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 264.70312
+        y: 990.625
+        width: 125
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: InputAxis == 0
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Enemy.Action_DashTowardTarget
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000b000000
+        actionHashCodes: 0be0430286575d007ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_dash
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - DashSpeed
+        - InputAxis == 0
+        - Dash_CD
+        byteData: 000001010000009a99193ecdcc4c3e0001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000010000000000000003000000020000000200000017000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - TowardTarget
+        - FaceDirection
+        - Key_DASH_SPEED
+        - dashDurationMin
+        - dashDurationMax
+        - finishEvent
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 0000000000000000000000000000000001000000020000000300000001000000070000000b00000002000000030000000f00000010000000110000001200000013000000
+        paramByteDataSize: 0000000000000000000000000100000001000000010000000400000000000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: Drop
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 818.4375
+        y: 1221.1641
+        width: 132
+        height: 144
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: OnFallToGround
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DropEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Dash
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DashForward
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Back
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DashBack
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_3
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_3
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_5
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_5_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Z_Atk_7
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Z_Atk_7_Sp_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: TeleportNear
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: TeleportNear_start
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - Action_Fall
+        - MonsterAnimationSwitchActionU2D
+        - Action_GoapDoAction
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000008000000
+        actionHashCodes: 5adb21010be04302296ada02
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_jumpdown
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - OnFallToGround
+        - 
+        - Atk_2
+        - Z_Atk_2
+        - Atk_3
+        - Z_Atk_3
+        - DashForward
+        - Dash
+        - DashBack
+        - Back
+        - Atk_5
+        - Z_Atk_5
+        - Atk_7_Sp
+        - Z_Atk_7
+        - TeleportNear
+        - TeleportNear
+        byteData: 00000000000000000000
+        arrayParamSizes: 07000000
+        arrayParamTypes:
+        - Action_GoapDoAction+GoapParams
+        customTypeSizes: 02000000020000000200000002000000020000000200000002000000
+        customTypeNames:
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        - Action_GoapDoAction+GoapParams
+        paramDataType: 17000000020000000200000005000000120000001700000001000000010000000c000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000280000000300000003000000
+        paramName:
+        - GroundedEvent
+        - FallSpeedEx
+        - FallSpeedExAdd
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - list
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        - 
+        - action
+        - sendEvent
+        paramDataPos: 000000000000000004000000000000000000000001000000080000000900000000000000000000000200000003000000010000000400000005000000020000000600000007000000030000000800000009000000040000000a0000000b000000050000000c0000000d000000060000000e0000000f000000
+        paramByteDataSize: 000000000400000004000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: DropEnd
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 593.7578
+        y: 1344.2266
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 0be04302
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_jumpennd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: Z_Atk_4
+      description: "\u659C\u4E0A\u5C04\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1202.3281
+        y: 1109.8672
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk4
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - Action_Write Enemy Layer Time
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000d000000
+        actionHashCodes: 0be043021c156e047ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk04
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_4
+        - Atk_4_CD
+        byteData: 010000002041cdcc4c3f0000003fcdcc4c3e0000204204000000000080400001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 05000000120000001700000001000000010000000200000002000000020000000200000002000000000000000200000003000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - flySpeed
+        - flyTime
+        - flyTrackWaitTime
+        - flyTrackWaitTimeRandomRange
+        - angle
+        - count
+        - range
+        - damageKey
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000002000000060000000a0000000e00000012000000160000001a00000001000000020000001e0000001f000000200000002100000022000000
+        paramByteDataSize: 00000000000000000000000001000000010000000400000004000000040000000400000004000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_6
+      description: "\u8FFD\u8E2A\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1200.7734
+        y: 1373.4453
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk6
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000b000000
+        actionHashCodes: 0be04302301cba057ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk06
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_6
+        - Atk_6_CD
+        byteData: 01000000403f00000040cdcccc3d000080400000a0410001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000020000000200000002000000020000000200000003000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - UpDuration
+        - Duration
+        - Interval
+        - FollowSpeed
+        - FlySpeed
+        - DamageKey
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000002000000060000000a0000000e000000120000000100000002000000160000001700000018000000190000001a000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000400000004000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_7_Sp_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1374.0938
+        y: 1645.1484
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk7_Up
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000006000000
+        actionHashCodes: 0be0430222ed56047ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk07_Sp
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_7_CD
+        byteData: 0000000000000000d0400001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000008000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - UpVelocity
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000002000000010000000a0000000b0000000c0000000d0000000e000000
+        paramByteDataSize: 000000000000000000000000010000000100000008000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_8
+      description: "\u89E6\u624B\u653B\u51FB"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1203.4844
+        y: 1779.0078
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_Boss08_Atk8
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000006000000
+        actionHashCodes: 0be0430278c530017ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk08
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_8
+        - Atk_8_CD
+        byteData: 01000001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000003000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - DamageKey
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000001000000020000000200000003000000040000000500000006000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_3
+      description: "\u7A7A\u4E2D\u8303\u56F4\u5C04\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1198.8203
+        y: 959.46875
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_3_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        - Action_ClearSpeed
+        - Action_Boss08_Atk3_Start
+        - Action_Boss08_Atk3_LaunchArrow
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000005000000070000000900000009000000
+        actionHashCodes: 0be043029fed4101d98b440300000000f0135702
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk03_self
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - Atk_3
+        - FINISHED
+        byteData: 010001000f000000000050410000c0400000a0410000b4c2cdcc4c3e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000110000001100000001000000010000000000000002000000020000000200000002000000020000000300000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        - ClearOnEnable
+        - ClearOnExit
+        - maxCount
+        - range
+        - height
+        - FlySpeed
+        - Angle
+        - Interval
+        - DamageKey
+        - finishEvent
+        paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000300000004000000080000000c0000001000000014000000180000000100000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000010000000400000004000000040000000400000004000000040000000000000000000000
+    - name: Z_Atk_5_start
+      description: "\u7A7A\u4E2D\u65CB\u8F6C\u5C04\u7BAD"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1204.1719
+        y: 1233.7031
+        width: 114.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_5_mid
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        - Action_ClearSpeed
+        - Assets.Scripts.FSM.Action_Timer
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000700000009000000
+        actionHashCodes: 0be043029fed4101d98b4403bc894100
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk05_start
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        byteData: 010001000000003f02000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000011000000110000000100000001000000020000000700000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        - ClearOnEnable
+        - ClearOnExit
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        paramDataPos: 000000000000000000000000000000000100000000000000010000000200000003000000040000000800000001000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000100000001000000040000000400000000000000
+    - name: Z_Atk_5_mid
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1386.6719
+        y: 1232.2031
+        width: 108.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_5_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        - Action_ClearSpeed
+        - Assets.Scripts.FSM.Action_Timer
+        - Action_Boss08_Atk5
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 000000000500000007000000090000000c000000
+        actionHashCodes: 0be043029fed4101d98b4403bc894100301cba05
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk05_mid
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        - Atk_5
+        byteData: 000001000000803f02000000000020410000b4c20000f0419a99193fcdcc4c3e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000011000000110000000100000001000000020000000700000017000000020000000200000002000000020000000200000003000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        - ClearOnEnable
+        - ClearOnExit
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        - FlySpeed
+        - Angle
+        - AngleAdd
+        - FlyTrackWaitTime
+        - FlyTrackWaitTimeRandomRange
+        - DamageKey
+        paramDataPos: 0000000000000000000000000000000001000000000000000100000002000000030000000400000008000000010000000c0000001000000014000000180000001c00000002000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000100000001000000040000000400000000000000040000000400000004000000040000000400000000000000
+    - name: Z_Atk_5_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1562.9766
+        y: 1228.8047
+        width: 108
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        - Action_ClearSpeed
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        - Action_Write Enemy Layer Time
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000700000009000000
+        actionHashCodes: 0be043029fed4101d98b44037ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk05_end
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_5_CD
+        byteData: 000001000001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000011000000110000000100000001000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        - ClearOnEnable
+        - ClearOnExit
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000000000000010000000200000003000000010000000400000005000000060000000700000008000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000100000001000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_7_Sp_start
+      description: "\u524D\u51B2\u653B\u51FB\u5E76\u4E0A\u5347"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1201.0312
+        y: 1642.9453
+        width: 135.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_7_Sp_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Enemy.Action_DashTowardTarget
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be0430286575d00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_dash
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - DashSpeed
+        - FINISHED
+        byteData: 00000101000000cdcccc3ecdcccc3e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000010000000000000003000000020000000200000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - TowardTarget
+        - FaceDirection
+        - Key_DASH_SPEED
+        - dashDurationMin
+        - dashDurationMax
+        - finishEvent
+        paramDataPos: 0000000000000000000000000000000001000000020000000300000001000000070000000b00000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000010000000400000000000000040000000400000000000000
+    - name: Z_Atk_7_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1372.3672
+        y: 1502.7969
+        width: 108
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be043027ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk07
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_7_CD
+        byteData: 00000001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 0000000000000000000000000000000001000000010000000200000003000000040000000500000006000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_7_start
+      description: "\u524D\u51B2\u653B\u51FB"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1199.3047
+        y: 1500.5938
+        width: 114.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_7_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Enemy.Action_DashTowardTarget
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be0430286575d00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_dash
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - DashSpeed
+        - FINISHED
+        byteData: 000001010000009a99993e9a99993e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000010000000000000003000000020000000200000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - TowardTarget
+        - FaceDirection
+        - Key_DASH_SPEED
+        - dashDurationMin
+        - dashDurationMax
+        - finishEvent
+        paramDataPos: 0000000000000000000000000000000001000000020000000300000001000000070000000b00000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000010000000400000000000000040000000400000000000000
+    - name: Z_Atk_9_mid
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1533.5156
+        y: 1907.3516
+        width: 108.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_9_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Assets.Scripts.FSM.Action_Timer
+        - Action_Boss08_Atk9
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - Action_Boss 08_Atk 9
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000005000000080000000b000000
+        actionHashCodes: 0be04302bc894100b7df29047ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_mid2
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        - Atk_9
+        - Atk_9_CD
+        byteData: 00000000803f020000000000803f9a99993e0001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000020000000700000017000000020000000200000003000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        - Duration
+        - DamageInterval
+        - DamageKey
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 00000000000000000000000000000000010000000200000006000000010000000a0000000e00000002000000030000001200000013000000140000001500000016000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000400000000000000040000000400000000000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_9_start_2
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1360.4531
+        y: 1905.1484
+        width: 128.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_9_mid
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 0be04302
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_mid1
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: TeleportNear_end
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 253.875
+        y: 1196.7109
+        width: 140
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_WriteEnemyLayerTime
+        - Action_Boss08_Teleport
+        customNames:
+        - 
+        - Action_Write Enemy Layer Time
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000b000000
+        actionHashCodes: 0be043027ff7fe00d4aeb203
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_chuansongend
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - TeleportNear_CD
+        - MeleeAttackRangeX
+        byteData: 0000000100000000000000002040
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 05000000120000001700000001000000010000000300000001000000010000000100000001000000020000000300000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        - KEY_RANGE_X
+        - height
+        paramDataPos: 0000000000000000000000000000000001000000010000000200000003000000040000000500000006000000020000000a000000
+        paramByteDataSize: 00000000000000000000000001000000010000000000000001000000010000000100000001000000040000000000000004000000
+    - name: TeleportNear_start
+      description: 
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 59.945312
+        y: 1196.2266
+        width: 146.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: TeleportNear_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be043029fed4101
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_chuansongstart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 05000000120000001700000001000000010000001100000011000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        paramDataPos: 00000000000000000000000000000000010000000000000001000000
+        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000
+    - name: Z_Atk_3_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1372.1719
+        y: 959.78125
+        width: 108
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Drop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Action_CloseControl
+        - Action_ClearSpeed
+        - Action_WriteEnemyLayerTime
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000700000009000000
+        actionHashCodes: 0be043029fed4101d98b44037ff7fe00
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk03_end
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - Atk_3_CD
+        byteData: 010001000001000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000001200000017000000010000000100000011000000110000000100000001000000030000000100000001000000010000000100000002000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - ActiveGravity
+        - ActiveControl
+        - ClearOnEnable
+        - ClearOnExit
+        - key
+        - writeOnEnter
+        - writeOnExit
+        - cdFirst
+        - random
+        - randomProbability
+        paramDataPos: 000000000000000000000000000000000100000000000000010000000200000003000000010000000400000005000000060000000700000008000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000100000001000000000000000100000001000000010000000100000004000000
+    - name: Z_Atk_9_start
+      description: "\u62A4\u8EAB\u89E6\u624B"
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1192.9766
+        y: 1902.7031
+        width: 114.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Z_Atk_9_start_2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Assets.Scripts.FSM.Action_Timer
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be04302bc894100
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_start
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        byteData: 00000000803f02000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000020000000700000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        paramDataPos: 0000000000000000000000000000000001000000020000000600000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000400000000000000
+    - name: Z_Atk_9_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1694.4375
+        y: 1908.0625
+        width: 108
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 0be04302
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_end
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: Dead_mid
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1233.0703
+        y: 269.79688
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Dead_end
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Assets.Scripts.FSM.Action_Timer
+        - Action_Boss08_Atk9
+        customNames:
+        - 
+        - 
+        - Action_Boss 08_Atk 9
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: 0be04302bc894100b7df2904
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_mid2
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        - Atk_9
+        byteData: 00000000803f020000000000803f9a99993e
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000020000000700000017000000020000000200000003000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        - Duration
+        - DamageInterval
+        - DamageKey
+        paramDataPos: 00000000000000000000000000000000010000000200000006000000010000000a0000000e00000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000400000000000000040000000400000000000000
+    - name: Dead_start_2
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1060.0078
+        y: 267.59375
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Dead_mid
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 0be04302
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_mid1
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    - name: Dead_start
+      description: 
+      colorIndex: 4
+      position:
+        serializedVersion: 2
+        x: 892.53125
+        y: 265.14844
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Dead_start_2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        - Assets.Scripts.FSM.Action_Timer
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 0be04302bc894100
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_start
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        byteData: 00000000803f02000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000020000000700000017000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        - Time
+        - TimeLayer
+        - OnTimeElapsedEvent
+        paramDataPos: 0000000000000000000000000000000001000000020000000600000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000400000000000000
+    - name: Dead_end
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 1393.9922
+        y: 270.5078
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Destroy
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - MonsterAnimationSwitchActionU2D
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 0be04302
+        unityObjectParams:
+        - {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Boss_08_Atk09_end
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0500000012000000170000000100000001000000
+        paramName:
+        - controller
+        - animationClip
+        - CompletedEvent
+        - forceFace2Player
+        - interruptSameAnimation
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: Back
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BehitHeavy
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Behit_Cut
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Behit_Fatal
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Behit_Hit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Behit_Remote
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: COMBO
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Dash
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Dead
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: DeadHeavy
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: InputAxis != 0
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: InputAxis == 0
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: MoveToMeleeRange
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnFallToGround
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnFalling
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnTakeDamage
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: TeleportNear
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_1
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_2
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_3
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_4
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_5
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_6
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_7
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_7_Sp
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_8
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_9
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Z_Atk_9_Sp
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables:
+      - useVariable: 1
+        name: BeHitComboCount
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: PlayerFaceDirection
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: FriendlyFire
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables:
+      - useVariable: 1
+        name: SoundList
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        typeName: UnityEngine.Object
+        value: {fileID: 0}
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables:
+      - useVariable: 1
+        name: BeHitType
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        enumName: HutongGames.PlayMaker.None
+        intValue: 0
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000000000000000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 0
+    editorFlags: 5
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 1
+--- !u!95 &2706043217746574167
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &2706594318390068335
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655662801644333969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5eb80715fccc44216aeb16d551b6c218, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &2750600692441865523
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655662801644333969}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1418530157
+  m_SortingLayer: 3
+  m_SortingOrder: 107
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.07, y: 1.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!212 &2751099692136002265
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655749167481835755}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1418530157
+  m_SortingLayer: 3
+  m_SortingOrder: 106
+  m_Sprite: {fileID: 21300114, guid: b4548a89abec2ae40961d1a0697dc17e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.23, y: 1.53}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3107608484524747001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553122289717391696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d85abb362e5d14aaf1639d02099d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetActive: 1
+  ClearCallbackOnDisable: 0
+--- !u!114 &3494897036626399610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655988735423909879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e78fc3ba15ed514c950a05fdf1a1846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+--- !u!4 &4249591255851606870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553122289717391696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2652428339378747759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8920565221456282112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa74f5a6312f48709c458acb659cf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defines:
+  - {fileID: 11400000, guid: 4bddbd749583e4c5f86cb473c9ca6a30, type: 2}
+  - {fileID: 11400000, guid: 027fe810e60f04c9089fc5d2f9121865, type: 2}
+  - {fileID: 11400000, guid: 9c760ae7289a0474a95f0620f5746986, type: 2}
+--- !u!114 &8921030260644509860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655871449277887879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e56391640a92b642a26b27608f3910c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _statCollectionId: -1

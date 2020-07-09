@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84ef0bc7d816994e94cb71e44118d42, type: 3}
+  m_Name: Boss08_Platform
+  m_EditorClassIdentifier: 
+  datas:
+  - key: WalkSpeed
+    type: 1
+    defaultValue: 2
+  - key: RunSpeed
+    type: 1
+    defaultValue: 6
+  - key: ExploreSpeed
+    type: 1
+    defaultValue: 40
+  - key: DashSpeed
+    type: 1
+    defaultValue: 12
+  - key: Energy
+    type: 1
+    defaultValue: 100
+  - key: Gravity
+    type: 1
+    defaultValue: -36.88281
+  - key: TimeToJumpApex
+    type: 1
+    defaultValue: 0
+  - key: JumpBackDistanceX
+    type: 1
+    defaultValue: 4
+  - key: JumpBackDistanceY
+    type: 1
+    defaultValue: 6
+  - key: JumpBackAngle
+    type: 1
+    defaultValue: 1
+  - key: JumpBackGravity
+    type: 1
+    defaultValue: 43.32
+  - key: JumpBackSpeedX
+    type: 1
+    defaultValue: 3.5
+  - key: JumpBackSpeedY
+    type: 1
+    defaultValue: 3.5
+  - key: JumpAttackDuration
+    type: 1
+    defaultValue: 0
+  - key: JumpAttackFrameRate
+    type: 1
+    defaultValue: 60
+  - key: JumpAttackHeight
+    type: 1
+    defaultValue: 0
+  - key: AccelerationTimeAir
+    type: 1
+    defaultValue: 0.2
+  - key: AccelerationTimeGround
+    type: 1
+    defaultValue: 0.9
+  - key: BlockIce
+    type: 1
+    defaultValue: 1
+  - key: BlockStun
+    type: 1
+    defaultValue: 1
+  - key: BlockDeepFreeze
+    type: 1
+    defaultValue: 1
+  - key: BlockChaos
+    type: 1
+    defaultValue: 1
+  - key: BlockTaunt
+    type: 1
+    defaultValue: 1
+  - key: BlockDevour
+    type: 1
+    defaultValue: 1

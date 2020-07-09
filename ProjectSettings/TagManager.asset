@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Trap
+  - Through
+  - Climbable
+  - PlayerBody
+  - Monster
+  - Enemy
+  - Door
+  - Player's weapon
+  - Monster's weapon
+  - NoSE
+  - SuperDefenseState
+  - MonsterBody
+  - ReceiveMonsterDamage
+  - ReceivePlayerDamage
+  - ReceiveDamage
+  - RequireHitSE
+  - Pet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Platform
+  - OneWayPlatform
+  - Wall
+  - MovePlatform
+  - Trigger
+  - Trap
+  - Player
+  - Monster
+  - PlayerBody
+  - MonsterBody
+  - DefenseBody
+  - Weapon
+  - Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - LightSources
+  - LightObstacles
+  - AmbientLight
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FarLayer
+    uniqueID: 4002452931
+    locked: 0
+  - name: MidLayer
+    uniqueID: 3600976337
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 2876437139
+    locked: 0
+  - name: NearLayer
+    uniqueID: 1261832505
+    locked: 0
